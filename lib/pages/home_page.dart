@@ -26,7 +26,7 @@ class _HomePageState extends State<HomePage> {
     _wf.currentWeatherByCityName(cityName).then((w) {
       setState(() {
         _weather = w;
-        _errorMessage = null; // Clear any previous error messages
+        _errorMessage = null; 
       });
     }).catchError((error) {
       setState(() {
