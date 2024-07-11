@@ -150,7 +150,7 @@ class _HomePageState extends State<HomePage> {
       ],
     );
   }
-
+//create a function showing a weather icon
   Widget _weatherIcon() {
     return Column(
       mainAxisSize: MainAxisSize.min,
