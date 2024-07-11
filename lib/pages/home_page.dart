@@ -58,7 +58,7 @@ class _HomePageState extends State<HomePage> {
                 child: TextField(
                   controller: _controller,
                   decoration: InputDecoration(
-                    hintText: "Enter city name",
+                    hintText: "Enter City Name",
                     border: OutlineInputBorder(),
                   ),
                 ),
